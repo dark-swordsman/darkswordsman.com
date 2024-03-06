@@ -1,8 +1,8 @@
 export default function Hero() {
     return (
-      <div className="p-16 lg:grid lg:grid-cols-2 flex flex-col gap-8">
+      <div className="p-16 lg:grid lg:grid-cols-2 flex flex-col gap-8 min-h-96">
         <div className="flex md:flex-row flex-col gap-6">
-          <img src="/img/pfp.jpg" className="h-32 w-32 rounded-full" />
+          <img src="/img/pfp.jpg" className="h-32 w-32 rounded-full self-center" />
           <div className="flex flex-col justify-center gap-5">
             <span className="text-5xl font-semibold">Kyle Barr</span>
             <div className="flex flex-col text-gray-200">
