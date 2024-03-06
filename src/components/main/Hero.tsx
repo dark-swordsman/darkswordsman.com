@@ -11,7 +11,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="text-gray-400 text-lg flex items-center">
-          <span>I build performant interfaces with user experience in mind, as well as high quality 3D assets and renders.</span>
+          <span>I build performant interfaces with user experience in mind and high quality 3D assets and renders.</span>
         </div>
       </div>
     );
