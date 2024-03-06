@@ -11,8 +11,8 @@ export default function Navbar() {
             <div className="h-full">
               <ul className="flex h-full items-center">
                 <NavLink href="/">Home</NavLink>
-                <NavLink href="/">Portfolio</NavLink>
-                <NavLink href="/">Resume</NavLink>
+                <NavLink href="/resume">Resume</NavLink>
+                <NavLink href="/portfolio">Portfolio</NavLink>
               </ul>
             </div>
           </div>

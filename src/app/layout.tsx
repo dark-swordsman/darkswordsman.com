@@ -21,7 +21,11 @@ export default function RootLayout({
           <Navbar />
         </div>
         <div className="h-dvh overflow-y-auto grow shrink basis-auto">
-          {children}
+          <div className="flex justify-center">
+            <div className="max-w-[76rem]">
+              {children}
+            </div>
+          </div>
         </div>
       </body>
     </html>
