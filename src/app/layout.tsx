@@ -20,7 +20,7 @@ export default function RootLayout({
         <div className="grow-0 shrink basis-auto">
           <Navbar />
         </div>
-        <div className="h-dvh overflow-y-scroll grow shrink basis-auto">
+        <div className="h-dvh overflow-y-auto grow shrink basis-auto">
           {children}
         </div>
       </body>
