@@ -22,7 +22,7 @@ export default function RootLayout({
         </div>
         <div className="h-dvh overflow-y-auto grow shrink basis-auto">
           <div className="flex justify-center">
-            <div className="max-w-[76rem]">
+            <div className="shrink w-[76rem]">
               {children}
             </div>
           </div>
