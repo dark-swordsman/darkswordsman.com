@@ -7,8 +7,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-slate-800 text-sky-100">
-        <div className="container mx-auto px-4 lg:px-24">
+      <body className="bg-zinc-900 text-violet-100">
+        <div className="container mx-auto px-4 lg:px-24 py-12">
           {children}
         </div>
       </body>
