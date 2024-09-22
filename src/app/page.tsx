@@ -4,7 +4,7 @@ import Hero from "../components/Hero";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-4 md:gap-10">
       <Hero />
       <PrimaryCard title="Bio">
         <div className="flex flex-col gap-4">

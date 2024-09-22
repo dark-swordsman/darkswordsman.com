@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="grid grid-cols-2 gap-6">
-      <div className="flex flex-col items-end">
+    <div className="grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-2 gap-2 md:gap-6">
+      <div className="flex flex-col md:items-end md:mx-0 mx-auto">
         <div className="lg:mr-8">
           <Image sizes="100vw" className="max-h-72 rounded-full w-[100%] h-auto border-violet-700 border-2" width={400} height={400} alt="Kyle Barr's profile picture." src="/img/pfp.jpg" />
         </div>
