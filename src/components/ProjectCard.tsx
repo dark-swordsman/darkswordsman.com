@@ -19,7 +19,7 @@ export default function ProjectCard({ name, description, image, href, accentColo
       </div>
       <div className="absolute w-full z-10 group-hover:w-8 duration-100 h-full" />
       <div className={"absolute w-0 right-0 z-10 group-hover:-right-8 group-hover:w-full duration-100 h-full" + ` bg-${accentColor}`} />
-      {image ? <Image className="absolute left-0 -top-[50%] w-full opacity-100 group-hover:opacity-50 duration-100" src={image} alt={`Image for: ${name}`} width={400} height={400} /> : null}
+      {image ? <Image className="absolute left-0 -top-[50%] w-full opacity-100 group-hover:opacity-25 duration-100" src={image} alt={`Image for: ${name}`} width={400} height={400} /> : null}
     </Link>
   );
 }
