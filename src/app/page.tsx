@@ -32,7 +32,7 @@ export default function Home() {
       <PrimaryCard title="Bio">
         <div className="flex flex-col gap-4">
           <span>
-            My name is Kyle Barr and I'm and incredibly passionate creator!
+            My name is Kyle (A.K.A: "Dark") and I'm an incredibly passionate creator!
           </span>
           <span>
             As mentioned, I consider myself a "jack of all trades". I never really grew up liking just
