@@ -8,7 +8,11 @@ module.exports = {
     extend: {
       fontFamily: {
         "sans": ["FiraCode", ...defaultTheme.fontFamily.sans]
-      }
+      },
+      colors: {
+        "primary": "#2E1065",
+        "secondary": "#4B2D82",
+      },
     },
   },
   plugins: [],
