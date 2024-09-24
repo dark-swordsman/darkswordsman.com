@@ -13,6 +13,9 @@ module.exports = {
         "primary": "#2E1065",
         "secondary": "#4B2D82",
       },
+      backgroundImage: {
+        "echo-thumb-1": "url('/img/echo-thumb-1.jpg')"
+      }
     },
   },
   plugins: [],
