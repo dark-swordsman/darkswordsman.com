@@ -1,6 +1,23 @@
+import type { Metadata } from "next";
+import Footer from "../components/Footer";
 import NavLink from "../components/NavLink";
-import SecondaryCard from "../components/SecondaryCard";
 import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "darkswordsman.com",
+  description: "Kyle Barr's website",
+  icons: "/favicon.png",
+  openGraph: {
+    title: "darkswordsman.com",
+    description: "Kyle Barr's website",
+    images: "/favicon.png"
+  },
+  twitter: {
+    title: "darkswordsman.com",
+    description: "Kyle Barr's website",
+    images: "/favicon.png"
+  }
+};
 
 export default function RootLayout({
   children,
@@ -23,6 +40,7 @@ export default function RootLayout({
           </div>
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   )
