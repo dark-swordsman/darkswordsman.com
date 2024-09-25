@@ -2,6 +2,7 @@ import Link from "next/link";
 import SecondaryCard from "../../../components/SecondaryCard";
 import ContentLink from "../../../components/ContentLink";
 import Image from "next/image";
+import ProjectBanner from "../../../components/ProjectBanner";
 
 export default function Project() {
   // links
@@ -9,12 +10,7 @@ export default function Project() {
 
   return (
     <div>
-      <div className="relative bg-black mb-4 rounded-2xl overflow-clip max-h-36 flex justify-center flex-col">
-        <div className="z-10 absolute w-full h-full flex justify-center items-center">
-          <span className="self-center drop-shadow-[0_0_5px_rgba(0,0,0,1)] my-2 md:my-4 text-2xl md:text-3xl lg:text-4xl font-semibold">Echo's Home World</span>
-        </div>
-        <Image className="opacity-65 rounded-lg" src="/img/echo-home-world/echo-5.jpg" alt="Echo's Home World" width={1920} height={1080} />
-      </div>
+      <ProjectBanner imageURL="/img/echo-home-world/echo-5.jpg">Echo's Home World</ProjectBanner>
       <SecondaryCard>
         <div className="flex flex-col gap-4 my-2">
           <span>
@@ -33,9 +29,9 @@ export default function Project() {
             high quality avatar worlds designed for people to hangout in.
           </span>
           <span>
-          All of the models were made completely from scratch by me in <ContentLink newTab href="https://www.blender.org/">Blender</ContentLink>. I usually do this since it provices 
-          maximum creative freedom for my clients, as well as strict control over optimization 
-          (UV unwrawpping + topology/poly count). Objects are referenced from real world items crossed 
+          All of the models were made completely from scratch by me in <ContentLink newTab href="https://www.blender.org/">Blender</ContentLink>. 
+          I usually do this since it provides maximum creative freedom for my clients, as well as strict control 
+          over optimization (UV unwrawpping + topology/poly count). Objects are referenced from real world items crossed 
           with notes from the client.
           </span>
           <div className="px-0 md:px-12 lg:px-36 my-4">

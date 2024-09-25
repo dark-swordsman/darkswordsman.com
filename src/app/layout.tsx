@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "darkswordsman.com",
   description: "Kyle Barr's website",
   icons: "/favicon.png",
+  themeColor: "#2E1065",
   openGraph: {
     title: "darkswordsman.com",
     description: "Kyle Barr's website",
