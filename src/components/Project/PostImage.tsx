@@ -28,8 +28,8 @@ export default function PostImage({ src, alt, w, h }: PostImageInterface) {
       {fullscreen ? 
         <div className="z-20 fixed h-dvh w-full flex justify-center items-center top-0 left-0 bg-violet-950 bg-opacity-50">
           <div onClick={handleZoomedClick} className="cursor-zoom-out h-full w-full flex justify-center items-center">
-            <div onClick={handleZoomedClick} className="h-5/6 flex flex-col justify-center items-center mx-8">
-              <Image className="cursor-default drop-shadow-[0_0_2rem_rgba(0,0,0,1)] max-h-full w-auto" src={src} alt={alt} width={w} height={h} />
+            <div onClick={handleZoomedClick} className="drop-shadow-[0_0_2rem_rgba(0,0,0,1)] h-5/6 flex flex-col justify-center items-center mx-8 rounded-2xl">
+              <Image className="cursor-default max-h-full w-auto" src={src} alt={alt} width={w} height={h} />
               <span className="cursor-default font-light px-6 py-3 bg-black w-full overflow-clip">{`> ${alt}`}</span>
             </div>
           </div>
