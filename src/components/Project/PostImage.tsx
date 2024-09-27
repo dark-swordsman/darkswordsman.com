@@ -26,7 +26,7 @@ export default function PostImage({ src, alt, w, h }: PostImageInterface) {
   return (
     <div className="rounded-lg flex flex-col overflow-clip mx-0 md:mx-12 lg:mx-36 my-4 bg-zinc-900">
       {fullscreen ? 
-        <div className="z-20 fixed h-dvh w-full flex justify-center items-center top-0 left-0 bg-violet-950 bg-opacity-50">
+        <div className="z-20 fixed h-dvh w-full flex justify-center items-center top-0 left-0 bg-violet-950 bg-opacity-50 backdrop-blur-sm">
           <div onClick={handleZoomedClick} className="cursor-zoom-out h-full w-full flex justify-center items-center">
             <div onClick={handleZoomedClick} className="drop-shadow-[0_0_2rem_rgba(0,0,0,1)] h-5/6 flex flex-col justify-center items-center mx-8 rounded-2xl">
               <Image className="cursor-default max-h-full w-auto" src={src} alt={alt} width={w} height={h} />
