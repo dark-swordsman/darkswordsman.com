@@ -35,7 +35,7 @@ export default function PostImage({ src, alt, w, h }: PostImageInterface) {
           </div>
         </div> 
         : null}
-      <Image onClick={() => setFullscreen(true)} className="cursor-zoom-in" src={src} alt={alt} width={w} height={h} />
+      <Image onClick={() => setFullscreen(true)} className="cursor-zoom-in hover:opacity-75" src={src} alt={alt} width={w} height={h} />
       <span className="text-sm font-light italic px-4 py-2 opacity-60">{`> ${alt}`}</span>
     </div>
   );
